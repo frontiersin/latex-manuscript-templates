@@ -1,6 +1,6 @@
 \newcommand\classname{frontiers_suppmat} %this file is based in bioinfo.cls
-\newcommand\lastmodifieddate{2017/01/17}
-\newcommand\versionnumber{2.0}
+\newcommand\lastmodifieddate{2017/05/01}
+\newcommand\versionnumber{2.1}
 
 % For printing crop marks
 \newif\if@cropmarkson \@cropmarksontrue
@@ -394,17 +394,11 @@
 \def\@@title#1{\authormark{#1}\@@@title{#1}}
 \long\def\@@@title#1{\gdef\@title{#1}}
 
-\long\def\author{\@ifnextchar[{\short@uthor}{\@uthor}}
-\def\short@uthor[#1]{\authormark{#1}\@@author}
-\def\@uthor#1{\authormark{#1}\@@author{#1}}
-\long\def\@@author#1{\gdef\@author{#1}}
 
 \def\vol#1{\global\def\@vol{#1}}
 \def\issue#1{\global\def\@issue{#1}}
 \def\address#1{\global\def\@issue{#1}}
 \def\history#1{\global\def\@history{#1}}
-\def\correspondance#1{\global\def\@correspondance{#1}}
-\def\extraAuth#1{\global\def\@extraAuth{#1}}
 
 
 
@@ -487,19 +481,7 @@
 
  \rule{\textwidth}{1\p@}\par%
   \helvetica
-  \hbox to \textwidth{%
-  \parbox[t]{36.5pc}{%
-    \vspace*{1sp}
     {\helveticabold\fontsize{20}{21}\color{black}\selectfont\raggedright \@title \par}%
-    \vspace{4.5\p@}
-    {\helveticabold\fontsize{12}{15}\selectfont\raggedright \@author \par}%
-        \vspace{4\p@}
-  {\helvetica\fontsize{12}{10}\selectfont\raggedright {*Correspondence:\\ }\@correspondance \corrAuthor \\ \corrEmail \par}
-        \vspace{4\p@}
-    {\helvetica\fontsize{12}{12}\selectfont\raggedright\@extraAuth \par}%
-    \vspace{8\p@}
-    }%
-  }
   \vspace{14.5\p@}%
   }
 
