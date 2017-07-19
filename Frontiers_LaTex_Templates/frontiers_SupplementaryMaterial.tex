@@ -39,32 +39,29 @@ For more information on Supplementary Material and for details on the different 
 
 \subsection{Figures}
 
-%%% There is no need for adding the file termination, as long as you indicate where the file is saved. In the examples below the files (logo1.jpg and logo2.eps) are in the Frontiers LaTeX folder
+%%% There is no need for adding the file termination, as long as you indicate where the file is saved. In the examples below the files (logo1.jpg and logos.jpg) are in the Frontiers LaTeX folder
 %%% If using *.tif files convert them to .jpg or .png
-%%% If using panelled/compiled figures with subcaptions, use the subcaption package as in the second example.  N.B. This package is incompatible with the subfigure and subfig packages
 %%%  NB logo1.jpg is required in the path in order to correctly compile front page header %%%
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[width=10cm]{logo1}% This is a *.jpg file
+\includegraphics[width=9cm]{logo1}% This is a *.jpg file
 \end{center}
 \caption{ Enter the caption for your figure here.  Repeat as  necessary for each of your figures}\label{fig:1}
 \end{figure}
 
 
 \begin{figure}[h!]
-\begin{minipage}[b]{.5\linewidth}
-\centering\includegraphics[width=6cm]{YM-logo}% This is a *.eps file
-\subcaption{A subfigure}\label{fig:2a}
-\end{minipage}%
-\begin{minipage}[b]{.5\linewidth}
-\centering\includegraphics[width=2cm]{logo2}% This is an *.eps file
-\subcaption{Another subfigure}\label{fig:2b}
-\end{minipage}
-\caption{A figure}\label{fig:2b}
+\begin{center}
+\includegraphics[width=10cm]{logos}
+\end{center}
+\caption{This is a figure with sub figures, (A) is one logo, (B) is a different logo.}\label{fig:2}
 \end{figure}
 
-
+%%% If you are submitting a figure with subfigures please combine these into one image file with part labels integrated.
+%%% If you don't add the figures in the LaTeX files, please upload them when submitting the article.
+%%% Frontiers will add the figures at the end of the provisional pdf automatically
+%%% The use of LaTeX coding to draw Diagrams/Figures/Structures should be avoided. They should be external callouts including graphics.
 
 
 %\bibliographystyle{frontiersinSCNS_ENG_HUMS} %  for Science, Engineering and Humanities and Social Sciences articles, for Humanities and Social Sciences articles please include page numbers in the in-text citations

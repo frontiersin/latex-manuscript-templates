@@ -73,7 +73,9 @@ As a primary goal, the abstract should render the general significance and conce
 
 \section{Introduction}
 
-For Original Research Articles \citep{conference}, Clinical Trial Articles \citep{article}, and Technology Reports \citep{patent}, the introduction should be succinct, with no subheadings \citep{book}. For Case Reports the Introduction should include symptoms at presentation \citep{chapter}, physical exams and lab results.
+For Original Research Articles \citep{conference}, Clinical Trial Articles \citep{article}, and Technology Reports \citep{patent}, the introduction should be succinct, with no subheadings \citep{book}. For Case Reports the Introduction should include symptoms at presentation \citep{chapter}, physical exams and lab results \citep{dataset}.
+
+
 
 \section{Article types}
 
@@ -100,7 +102,7 @@ Equations should be inserted in editable format from the equation editor.
 \end{equation}
 
 \subsection{Figures}
-Frontiers requires figures to be submitted individually, in the same order as they are referred to in the manuscript. Figures will then be automatically embedded at the bottom of the submitted manuscript. Kindly ensure that each table and figure is mentioned in the text and in numerical order. Figures must be of sufficient resolution for publication \href{http://home.frontiersin.org/about/author-guidelines#ResolutionRequirements}{see here for examples and minimum requirements}. Figures which are not according to the guidelines will cause substantial delay during the production process. Please see \href{http://home.frontiersin.org/about/author-guidelines#GeneralStyleGuidelinesforFigures}{here} for full Figure guidelines
+Frontiers requires figures to be submitted individually, in the same order as they are referred to in the manuscript. Figures will then be automatically embedded at the bottom of the submitted manuscript. Kindly ensure that each table and figure is mentioned in the text and in numerical order. Figures must be of sufficient resolution for publication \href{http://home.frontiersin.org/about/author-guidelines#ResolutionRequirements}{see here for examples and minimum requirements}. Figures which are not according to the guidelines will cause substantial delay during the production process. Please see \href{http://home.frontiersin.org/about/author-guidelines#GeneralStyleGuidelinesforFigures}{here} for full figure guidelines. Cite figures with subfigures as figure \ref{fig:2}B.
 
 
 \subsubsection{Permission to reuse and Copyright}
@@ -150,10 +152,10 @@ This is a short text to acknowledge the contributions of specific colleagues, in
 
 \section*{Figure captions}
 
+%%% Please be aware that for original research articles we only permit a combined number of 15 figures and tables, one figure with multiple subfigures will count as only one figure.
 %%% Use this if adding the figures directly in the mansucript, if so, please remember to also upload the files when submitting your article
-%%% There is no need for adding the file termination, as long as you indicate where the file is saved. In the examples below the files (logo1.jpg and logo2.eps) are in the Frontiers LaTeX folder
+%%% There is no need for adding the file termination, as long as you indicate where the file is saved. In the examples below the files (logo1.jpg and logos.jpg) are in the Frontiers LaTeX folder
 %%% If using *.tif files convert them to .jpg or .png
-%%% If using panelled/compiled figures with subcaptions, use the subcaption package as in the second example.  N.B. This package is incompatible with the subfigure and subfig packages
 %%%  NB logo1.jpg is required in the path in order to correctly compile front page header %%%
 
 \begin{figure}[h!]
@@ -163,23 +165,17 @@ This is a short text to acknowledge the contributions of specific colleagues, in
 \caption{ Enter the caption for your figure here.  Repeat as  necessary for each of your figures}\label{fig:1}
 \end{figure}
 
+
 \begin{figure}[h!]
-\begin{minipage}[b]{.5\linewidth}
-\centering\includegraphics[width=6cm]{YM-logo}% This is a *.eps file
-\subcaption{A subfigure}\label{fig:2a}
-\end{minipage}%
-\begin{minipage}[b]{.5\linewidth}
-\centering\includegraphics[width=2cm]{logo2}% This is an *.eps file
-\subcaption{Another subfigure}\label{fig:2b}
-\end{minipage}
-\caption{A figure}\label{fig:2b}
+\begin{center}
+\includegraphics[width=15cm]{logos}
+\end{center}
+\caption{This is a figure with sub figures, (A) is one logo, (B) is a different logo.}\label{fig:2}
 \end{figure}
 
-
+%%% If you are submitting a figure with subfigures please combine these into one image file with part labels integrated.
 %%% If you don't add the figures in the LaTeX files, please upload them when submitting the article.
-
-%%% Frontiers will add the figures at the end of the provisional pdf automatically %%%
-
+%%% Frontiers will add the figures at the end of the provisional pdf automatically
 %%% The use of LaTeX coding to draw Diagrams/Figures/Structures should be avoided. They should be external callouts including graphics.
 
 \end{document}
