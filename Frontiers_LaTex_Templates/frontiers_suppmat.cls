@@ -1,6 +1,6 @@
 \newcommand\classname{frontiers_suppmat} %this file is based in bioinfo.cls
 \newcommand\lastmodifieddate{2017/05/01}
-\newcommand\versionnumber{2.1}
+\newcommand\versionnumber{2.2}
 
 % For printing crop marks
 \newif\if@cropmarkson \@cropmarksontrue
@@ -234,13 +234,13 @@
   \def\@evenfoot{\vbox to 12.5\p@{\rule{\textwidth}{0.5\p@}\vss
         \hbox to \textwidth{\helvetica\small {}\hfill\helveticabold\color{black}\thepage}%
         }}%
-  \def\@evenhead{\vbox{\hbox to \textwidth{\fontsize{11}{10}\selectfont
+  \def\@evenhead{\vbox{\hbox to \textwidth{\fontsize{8}{10}\selectfont
         \helveticabold{\fontshape{it}\selectfont
-        \strut\firstAuthorLast}\hfill\strut\rightmark}\vspace{6.5\p@}\rule{\textwidth}{0.5\p@}}}%
-  \def\@oddhead{\vbox{\hbox to \textwidth{\fontsize{11}{10}\selectfont
-        \helveticabold{\fontshape{it}\selectfont
-        \strut\firstAuthorLast}\hfill\strut\rightmark}\vspace{6.5\p@}\rule{\textwidth}{0.5\p@}}}%
-  \def\titlemark##1{\markboth{##1}{##1}}%
+        \strut\leftmark}\hfill}\vspace{6.5\p@}\rule{\textwidth}{0.5\p@}}}%
+  \def\@oddhead{\vbox{\hbox to \textwidth{\hfill\fontsize{8}{10}\selectfont
+        \helveticabold{\fontshape{it}\selectfont\strut\rightmark}}%
+        \vspace{6.5\p@}\rule{\textwidth}{0.5\p@}}}%
+   \def\titlemark##1{\markboth{##1}{##1}}%
   \def\authormark##1{\gdef\leftmark{##1}}%
   }
 
