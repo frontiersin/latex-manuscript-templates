@@ -481,7 +481,7 @@
   \parbox[t]{15pc}{%
     \helvetica
     \hfil
-    \flushleft  \includegraphics[width=12pc,angle=0]{./logo1.jpg}
+    \flushleft  \includegraphics[width=12pc,angle=0]{./logo1.eps}
 
 }}
  \rule{\textwidth}{1\p@}\par%

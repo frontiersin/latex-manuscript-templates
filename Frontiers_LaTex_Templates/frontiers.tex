@@ -6,7 +6,7 @@
 % When submitting your files, remember to upload this *tex file, the pdf generated with it, the *bib file (if bibliography is not within the *tex) and all the figures.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%% Version 3.3 Generated 2016/11/10 %%%
+%%% Version 3.3 Generated 2018/01/26 %%%
 %%% You will need to have the following packages installed: datetime, fmtcount, etoolbox, fcprefix, which are normally inlcuded in WinEdt. %%%
 %%% In http://www.ctan.org/ you can find the packages and how to install them, if necessary. %%%
 %%%  NB logo1.jpg is required in the path in order to correctly compile front page header %%%
@@ -140,8 +140,11 @@ Details of all funding sources should be provided, including grant numbers if ap
 This is a short text to acknowledge the contributions of specific colleagues, institutions, or agencies that aided the efforts of the authors.
 
 \section*{Supplemental Data}
- \href{http://home.frontiersin.org/about/author-guidelines#SupplementaryMaterial}{Supplementary Material} should be uploaded separately on submission, if there are Supplementary Figures, please include the caption in the same file as the figure. LaTeX Supplementary Material templates can be found in the Frontiers LaTeX folder 
+ \href{http://home.frontiersin.org/about/author-guidelines#SupplementaryMaterial}{Supplementary Material} should be uploaded separately on submission, if there are Supplementary Figures, please include the caption in the same file as the figure. LaTeX Supplementary Material templates can be found in the Frontiers LaTeX folder.
 
+\section*{Data Availability Statement}
+The datasets [GENERATED/ANALYZED] for this study can be found in the [NAME OF REPOSITORY] [LINK].
+% Please see the availability of data guidelines for more information, at https://www.frontiersin.org/about/author-guidelines#AvailabilityofData
 
 \bibliographystyle{frontiersinSCNS_ENG_HUMS} % for Science, Engineering and Humanities and Social Sciences articles, for Humanities and Social Sciences articles please include page numbers in the in-text citations
 %\bibliographystyle{frontiersinHLTH&FPHY} % for Health, Physics and Mathematics articles
@@ -154,13 +157,13 @@ This is a short text to acknowledge the contributions of specific colleagues, in
 
 %%% Please be aware that for original research articles we only permit a combined number of 15 figures and tables, one figure with multiple subfigures will count as only one figure.
 %%% Use this if adding the figures directly in the mansucript, if so, please remember to also upload the files when submitting your article
-%%% There is no need for adding the file termination, as long as you indicate where the file is saved. In the examples below the files (logo1.jpg and logos.jpg) are in the Frontiers LaTeX folder
+%%% There is no need for adding the file termination, as long as you indicate where the file is saved. In the examples below the files (logo1.eps and logos.eps) are in the Frontiers LaTeX folder
 %%% If using *.tif files convert them to .jpg or .png
-%%%  NB logo1.jpg is required in the path in order to correctly compile front page header %%%
+%%%  NB logo1.eps is required in the path in order to correctly compile front page header %%%
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[width=10cm]{logo1}% This is a *.jpg file
+\includegraphics[width=10cm]{logo1}% This is a *.eps file
 \end{center}
 \caption{ Enter the caption for your figure here.  Repeat as  necessary for each of your figures}\label{fig:1}
 \end{figure}
@@ -170,7 +173,7 @@ This is a short text to acknowledge the contributions of specific colleagues, in
 \begin{center}
 \includegraphics[width=15cm]{logos}
 \end{center}
-\caption{This is a figure with sub figures, (A) is one logo, (B) is a different logo.}\label{fig:2}
+\caption{This is a figure with sub figures, \textbf{(A)} is one logo, \textbf{(B)} is a different logo.}\label{fig:2}
 \end{figure}
 
 %%% If you are submitting a figure with subfigures please combine these into one image file with part labels integrated.
