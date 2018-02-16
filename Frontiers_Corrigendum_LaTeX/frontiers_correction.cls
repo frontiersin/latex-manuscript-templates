@@ -1,5 +1,5 @@
 \newcommand\classname{frontiers_correction} %this file is based in bioninfo.cls
-\newcommand\lastmodifieddate{2015/05/22}
+\newcommand\lastmodifieddate{2018/02/16}
 \newcommand\versionnumber{2.4}
 
 % For printing crop marks
@@ -478,7 +478,7 @@
   \parbox[c]{15pc}{%
     \helvetica
     \hfil
-    \flushleft  \includegraphics[width=15pc,angle=0]{./logo1.jpg}
+    \flushleft  \includegraphics[width=15pc,angle=0]{./logo1.eps}
 
 
 }}
