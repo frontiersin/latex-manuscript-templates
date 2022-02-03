@@ -1,12 +1,12 @@
 %%
-%% This is file `frontiersinSCNS_ENG_HUMS.bst',
+%% This is file `Frontiers-Harvard.bst',
 %% generated with the docstrip utility.
 %%
 %% The original source files were:
 %%
 %% merlin.mbs  (with options: `ay,nat,lang,annote,nm-rev,jnrlst,nmlm,x6,m6,dt-beg,yr-par,note-yr,trtit-b,vnum-x,volp-com,pp-last,num-xser,jnm-x,bkpg-x,add-pub,pub-par,pre-pub,doi,edpar,edby,edbyx,fin-bare,ppx,ed,abr,xedn,jabr,nfss,')
 %% ----------------------------------------
-%% *** For articles in Science, Engineering and Humanities and Social Sciences domains ***
+%% *** For articles in journals using the Harvard Referencing Style (Author-Date), for Frontiers Reference Styles by Journal: https://zendesk.frontiersin.org/hc/en-us/articles/360017860337-Frontiers-Reference-Styles-by-Journal ***
 %% 
 %% Copyright 1994-2011 Patrick W Daly
  % ===============================================================
@@ -1565,4 +1565,4 @@ FUNCTION {end.bib}
 EXECUTE {end.bib}
 %% End of customized bst file
 %%
-%% End of file `frontiersinSCNS_ENG_HUMS.bst'.
+%% End of file `Frontiers-Harvard.bst'.
