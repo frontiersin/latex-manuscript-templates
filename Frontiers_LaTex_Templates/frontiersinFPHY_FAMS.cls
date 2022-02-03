@@ -1,4 +1,4 @@
-\newcommand\classname{frontiersFPHY} %this file is based in bioninfo.cls
+\newcommand\classname{frontiersinFPHY_FAMS} %this file is based in bioninfo.cls
 \newcommand\lastmodifieddate{2016/01/11}
 \newcommand\versionnumber{2.6}
 
