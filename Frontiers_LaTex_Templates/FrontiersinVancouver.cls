@@ -1,4 +1,4 @@
-\newcommand\classname{frontiersHLTH} %this file is based in bioninfo.cls
+\newcommand\classname{FrontiersinVancouver} %this file is based in bioninfo.cls
 \newcommand\lastmodifieddate{2016/01/11}
 \newcommand\versionnumber{2.6}
 
