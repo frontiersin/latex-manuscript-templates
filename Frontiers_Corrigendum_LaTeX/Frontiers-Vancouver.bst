@@ -1,5 +1,5 @@
 %%
-%% This is file `frontiersinHLTH&FPHY.bst',
+%% This is file `Frontiers-Vancouver.bst',
 %% generated with the docstrip utility.
 %%
 %% The original source files were:
@@ -8,7 +8,7 @@
 %% physjour.mbs  (with options: `ay,nat,lang,seq-no,nm-rvx,ed-rev,jnrlst,nmlm,x6,m6,keyxyr,yr-par,note-yr,vol-bf,vnum-x,volp-blk,pp-last,num-xser,ser-vol,jnm-x,pg-bk,add-pub,pub-par,pre-pub,doi,in-x,ppx,abr,xedn,jabr,and-com,and-com-ed,xand,plntx,,{}')
 %% merlin.mbs  (with options: `tail,ay,nat,lang,seq-no,nm-rvx,ed-rev,jnrlst,nmlm,x6,m6,keyxyr,yr-par,note-yr,vol-bf,vnum-x,volp-blk,pp-last,num-xser,ser-vol,jnm-x,pg-bk,add-pub,pub-par,pre-pub,doi,in-x,ppx,abr,xedn,jabr,and-com,and-com-ed,xand,plntx,,{}')
 %% ----------------------------------------
-%% ***  For articles submitted to Frontiers in journals in the domain of HEALTH or the journal Frontiers in Physics  ***
+%% ***  For articles in journals using the Vancouver Reference Style (Numbered), for Frontiers Reference Styles by Journal: https://zendesk.frontiersin.org/hc/en-us/articles/360017860337-Frontiers-Reference-Styles-by-Journal  ***
 %%
 %% Copyright 1994-2011 Patrick W Daly
  % ===============================================================
@@ -1634,4 +1634,4 @@ FUNCTION {end.bib}
 EXECUTE {end.bib}
 %% End of customized bst file
 %%
-%% End of file `frontiersinHLTH&FPHY.bst'.
+%% End of file `Frontiers-Vancouver.bst'.
