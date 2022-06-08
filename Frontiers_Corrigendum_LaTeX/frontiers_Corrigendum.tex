@@ -1,16 +1,15 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% This is just an example/guide for you to refer to when submitting manuscripts to Frontiers, it is not mandatory to use Frontiers .cls files nor frontiers.tex  %
-% This will only generate the Manuscript, the final article will be typeset by Frontiers after acceptance.                                                 %
-%                                                                                                                                                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is just an example/guide for you to refer to when submitting manuscripts to Frontiers, it is not mandatory to use Frontiers .cls files nor frontiers.tex  
+% This will only generate the Manuscript, the final article will be typeset by Frontiers after acceptance.           
+
 % When submitting your files, remember to upload this *tex file, the pdf generated with it, the *bib file (if bibliography is not within the *tex) and all the figures.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%% Version 3.3 Generated 2018/06/15 %%%
 %%% You will need to have the following packages installed: datetime, fmtcount, etoolbox, fcprefix, which are normally included in WinEdt. %%%
 %%% In http://www.ctan.org/ you can find the packages and how to install them, if necessary. %%%
 
 \documentclass[utf8]{frontiers_correction} 
-
 
 %\setcitestyle{square} % for articles in the journals "Frontiers in Physics" and "Frontiers in Applied Mathematics and Statistics"
 \usepackage{url,hyperref,lineno,microtype}
@@ -21,20 +20,38 @@
 % Leave a blank line between paragraphs instead of using \\
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% A corrigendum refers to a change to their article that the author wishes to publish after publication. The publication of this article is subject to Frontiers Editorial approval.
+
+% Instructions:
+% ●	please read through all the templates before choosing 
+% ●	pick the most relevant text template(s) from the following page and delete all others.
+% ●	edit the text as necessary, ensuring that the original incorrect text is included for the record, please see the below.
+% ●	please do not use any extra formatting when editing the templates, and only modify the red text unless absolutely necessary
+% ●	submit to Frontiers following the instructions on this page: https://zendesk.frontiersin.org/hc/en-us/articles/115003295805-How-can-I-add-submit-a-Corrigendum-
+
+% When the original text contained incorrect information, to preserve the scientific record, please include that text when editing the below templates. For example:
+
+% INCORRECT EXAMPLE:
+% There was a mistake in the Funding statement, an incorrect number was used. The correct number is “2015C03Bd051.”. The publisher apologizes for this mistake. The original version of this article has been updated. 
+
+% CORRECT EXAMPLE:
+% In the published article, there was a mistake in the Funding statement. The funding statement for the Key Development Project of the Department of Science and Technology was displayed as “2015CBd051”. The correct statement is “Key Development Project of Department of Science and Technology (2015C03Bd051).’’ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 \def\keyFont{\fontsize{8}{11}\helveticabold }
 \def\firstAuthorLast{Sample {et~al.}} %use et al only if is more than 1 author
 \def\Authors{First Author\,$^{1,*}$, Co-Author\,$^{2}$ and Co-Author\,$^2$}
 % Affiliations should be keyed to the author's name with superscript numbers and be listed as follows: Laboratory, Institute, Department, Organization, City, State abbreviation (USA, Canada, Australia), and Country (without detailed address information such as city zip codes or street names).
-% Affiliations of all authors must be the same as they appear in the published original version of the article.
+% Affiliations of all authors must be the same as they appear in the published original version of the article, unless affiliations are being corrected in the corrigendum, in which case use the new affiliations.
 % If one of the authors has a change of address, list the new address below the correspondence details using a superscript symbol and use the same symbol to indicate the author in the author list.
 \def\Address{$^{1}$Laboratory X, Institute X, Department X, Organization X, City X, State XX (only USA, Canada and Australia), Country X \\
 $^{2}$Laboratory X, Institute X, Department X, Organization X, City X, State XX (only USA, Canada and Australia), Country X  }
 % The Corresponding Author should be marked with an asterisk
-% Provide the email of the corresponding author
+% Provide the email of the corresponding author from the original article
 \def\corrAuthor{Corresponding Author}
 \def\corrEmail{email@uni.edu}
-
-
 
 
 \begin{document}
@@ -53,105 +70,132 @@ $^{2}$Laboratory X, Institute X, Department X, Organization X, City X, State XX 
 
 \maketitle
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%  If you need to communicate important, scientifically relevant errors or missing information, please submit a Correction, detailing the reason(s) for and location(s) of the change(s) needed in the cover letter. 
-
-%Figures, tables, and images will be published under a Creative Commons CC-BY licence and permission must be obtained for use of copyrighted material from other sources (including re-published/adapted/modified/partial figures and images from the internet). It is the responsibility of the authors to acquire the licenses, to follow any citation instructions requested by third-party rights holders, and cover any supplementary charges.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 {\tiny
  {\keyFont{ \*{Keywords:} Text Text Text Text Text Text Text Text }}} % These must be taken from the original version of the article. 
 
 
-\section*{A corrigendum on \textit{full citation of the original version of the article.}} % Insert citation from original version of the article.
-
-%Clearly state the mistake being fixed
-% Please pick the most relevant text template(s) (delete all others) and edit as necessary.
-
-\subsection*{Incorrect Funding Number}
-There is an error in the Funding statement. The correct number for \textbf{Insert funder} is \textbf{Insert Grant Number}. The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
-
-\subsection*{Incorrect Funder Name}
-There is an error in the Funding statement. The correct name for the funder is \textbf{Insert CORRECT Name}. The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
-
-\subsection*{Missing Funding}
-In the original article, we neglected to include the funder \textbf{Insert funder}, \textbf{Insert Grant Number} to \textbf{Name of Author}. The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
+\subsection*{A Corrigendum on \textit{full citation of the original version of the article.}} 
+% Insert citation from original version of the article.
 
 
-\subsection*{Figure/Table Legend}
-In the original article, there was a mistake in the legend for \textbf{\textit{Name of Figure/Table}} as published. \textbf{State the mistake which was made}. The correct legend appears below. The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.\par
-
-\textbf{Insert CORRECTED legend}\par
-
-\subsection*{Error in Figure/Table}
-In the original article, there was a mistake in \textbf{\textit{Name of Figure/Table}} as published. \textbf{State the mistake which was made}. The corrected \textbf{\textit{Name of Figure/Table}} appears below. The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.\par
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Figures, tables, and images will be published under a Creative Commons CC-BY licence and permission must be obtained for use of copyrighted material from other sources (including re-published/adapted/modified/partial figures and images from the internet). It is the responsibility of the authors to acquire the licenses, to follow any citation instructions requested by third-party rights holders, and cover any supplementary charges.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection*{Incorrect Author Name}
-An author name was incorrectly spelled as \textbf{Insert incorrect version}. The correct spelling is \textbf{Insert CORRECT version}. The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Please pick the most relevant text template(s), delete all others, and edit as necessary. Clearly state the mistake being fixed.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{10mm}
 \subsection*{Incorrect Affiliation}
-In the published article, there was an error in affiliation \textbf{Insert Number}. Instead of “\textbf{Insert incorrect version}”, it should be “\textbf{Insert correct version}”. The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
+In the published article, there was an error in affiliation(s) \textbf{Insert Number(s)}. Instead of “\textbf{Insert INCORRECT version}”, it should be “\textbf{Insert CORRECT version}”.\par The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
 
+
+\vspace{5mm}
 \subsection*{Additional Affiliation(s)}
-In the published article, there was an error regarding the affiliation(s) for \textbf{Name of Author}. As well as having affiliation(s) \textbf{Insert Number(s)}, they should also have \textbf{Insert affiliations}. The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
+In the published article, there was an error regarding the affiliation(s) for \textbf{Name of Author}. As well as having affiliation(s) \textbf{Insert Number(s)}, they should also have \textbf{\textit{Insert affiliation(s) name}}.\par The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
 
-\subsection*{Addition of an Author}
-\textbf{Insert Author Name} was not included as an author in the published article. The corrected Author Contributions Statement appears below. The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
-%Insert new Author Contributions Statement
 
-\subsection*{Incorrect Reference}
-In the original article, the reference for \textbf{Insert citation} was incorrectly written as \textbf{Insert full reference}. It should be \textbf{Insert CORRECT reference}. The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
+\vspace{5mm}
+\subsection*{Error in the Article Title}
+In the published article, there was an error in the article title. Instead of "\textbf{\textit{Insert INCORRECT version}}", it should be "\textbf{\textit{Insert CORRECT version}}".\par The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
 
-\subsection*{Author Name Misspelled in Reference}
-In the original article, the name of one of the authors was incorrectly spelled in the reference for \textbf{Insert citation} as \textbf{Insert incorrect spelling}. It should be \textbf{Insert CORRECT spelling}. The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
 
+\vspace{5mm}
+\subsection*{Incorrect Author Name}
+% Please also check that the initials used in the Author Contributions section or elsewhere in the article are correct.
+In the published article, an author name was incorrectly written as \textbf{Insert INCORRECT version}. The correct spelling is \textbf{Insert CORRECT version}.\par The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
+
+
+\vspace{5mm}
+\subsection*{Error in Author List}
+% Please also check that the initials used in the Author Contributions section or elsewhere in the article are correct. 
+In the published article, there was an error in the author list, and author \textbf{name} was erroneously \textbf{included/excluded}. The corrected author list appears below.\par
+\textbf{Insert CORRECT author list}.\par
+The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
+
+\vspace{5mm}
+\subsection*{Incorrect Data Availability Statement}
+% NOTE TO AUTHORS – this is only to correct when there was an error in the statement, not to add new data to the study – that will require the submission of an Addendum
+In the published article, there was an error in the Data Availability statement. \textbf{State the mistake which was made and include original text}. The correct Data Availability statement appears below.\par
+\textbf{Data Availability Statement}\par
+\textbf{Insert CORRECT statement}\par
+The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
+
+
+\vspace{5mm}
 \subsection*{Missing Citation}
-In the original article \textbf{Insert citation} was not cited in the article. The citation has now been inserted in \textbf{\textit{Name of Section}}, \textbf{\textit{Name of Sub-section if there is one}}, \textbf{\textit{Paragraph Number}} and should read:\par
-
-\textbf{Insert CORRECTED PARAGRAPH}\par % Iinsert the corrected parahraph here
-
+In the published article \textbf{Insert citation} was not cited in the article. The citation has now been inserted in \textbf{Name of Section}, \textbf{\textit{Name of Sub-section if there is one}}, \textbf{Paragraph Number} and should read:\par
+\textbf{Insert CORRECT PARAGRAPH}\par
 The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
 
+
+\vspace{5mm}
 \subsection*{Incorrect Copyright Statement}
-
-There is an error in the Copyright statement. The correct statement is "Copyright \textcopyright \textbf{[Insert year]} \textbf{Insert corresponding statement for institution.} This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms." 
-
+In the published article, there was an error in the Copyright statement. The statement was incorrectly written as “\textbf{Insert INCORRECT statement}”. The corrected statement is "Copyright \textcopyright \textbf{ Insert year} \textbf{/ Insert corresponding statement for institution.} This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms."\par
 The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
 
 
+\vspace{5mm}
+\subsection*{Error in Figure/Table Legend}
+In the published article, there was an error in the legend for \textbf{Name of Figure/Table} as published. \textbf{State the mistake which was made}. The correct legend appears below.\par
+\textbf{Insert CORRECT legend}\par
+The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
+
+
+\vspace{5mm}
+\subsection*{Error in Figure/Table}
+In the published article, there was an error in \textbf{Name of Figure/Table} as published. \textbf{State the mistake which was made}. The corrected \textbf{Name of Figure/Table} and its caption \textbf{Insert ORIGINAL Figure/Table Caption} appear below.\par The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
+% REMINDER: Figures, tables, and images will be published under a Creative Commons CC-BY licence and permission must be obtained for use of copyrighted material from other sources (including re-published/adapted/modified/partial figures and images from the internet). It is the responsibility of the authors to acquire the licenses, to follow any citation instructions requested by third-party rights holders, and cover any supplementary charges.
+
+
+\vspace{5mm}
+\subsection*{Incorrect Funding}
+In the published article, there was an error in the Funding statement. \textbf{State the mistake which was made and include original text}. The correct Funding statement appears below.\par
+\textbf{FUNDING}\par
+\textbf{Insert CORRECT funding statement}\par
+The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
+
+
+\vspace{5mm}
+\subsection*{Incorrect Reference}
+In the published article, the reference for \textbf{Insert citation} was incorrectly written as \textbf{Insert full reference}. It should be \textbf{Insert CORRECT reference}. \par The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
+
+
+\vspace{5mm}
+\subsection*{Author Name Misspelled in Reference}
+In the published article, the name of one of the authors was incorrectly spelled in the reference for \textbf{Insert citation} as \textbf{Insert INCORRECT spelling}. It should be \textbf{Insert CORRECT spelling}.\par The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
+
+
+\vspace{5mm}
+\subsection*{Incorrect Supplementary Material }
+In the published article, there was an error in Supplementary \textbf{Figure/Table/Appendix/Name (Number)}. \textbf{State the mistake which was made and include original material}. The correct material statement appears below.\par
+\textbf{Insert only CORRECT Supplementary Material/Figure/Table/Appendix}\par
+The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
+
+
+\vspace{5mm}
+\subsection*{Missing Supplementary Material }
+In the published article, Supplementary \textbf{Figure/Table/Appendix/Name (Number)} was mistakenly not included in the publication. The missing material appears below:\par
+\textbf{Insert only CORRECT Supplementary Material/Figure/Table/Appendix}\par
+The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
+
+
+\vspace{5mm}
 \subsection*{Text Correction}
-In the original article, there was an error. \textbf{State the mistake that was made}.\par
-A correction has been made to \textbf{\textit{Name of Section}}, \textbf{\textit{Name of Sub-section if there is one}}, \textbf{\textit{Paragraph Number}}:\par
-
-\textbf{Insert CORRECTED paragraph}\par % Insert the corrected paragraph here
-
+In the published article, there was an error. \textbf{State the mistake that was made}.\par
+A correction has been made to \textbf{Name of Section}, \textbf{\textit{Name of Sub-section if there is one}}, \textbf{Paragraph Number}. This sentence previously stated:\par
+\textbf{Insert ORIGINAL SENTENCE}\par 
+The corrected sentence appears below:
+\textbf{Insert CORRECT SENTENCE}\par 
 The authors apologize for this error and state that this does not change the scientific conclusions of the article in any way. The original article has been updated.
 
 
-%\bibliographystyle{Frontiers-Harvard} % Many Frontiers journals use the Harvard referencing system (Author-date), to find the style and resources for the journal you are submitting to: https://zendesk.frontiersin.org/hc/en-us/articles/360017860337-Frontiers-Reference-Styles-by-Journal. For Humanities and Social Sciences articles please include page numbers in the in-text citations 
+%\bibliographystyle{Frontiers-Harvard} %  Many Frontiers journals use the Harvard referencing system (Author-date), to find the style and resources for the journal you are submitting to: https://zendesk.frontiersin.org/hc/en-us/articles/360017860337-Frontiers-Reference-Styles-by-Journal. For Humanities and Social Sciences articles please include page numbers in the in-text citations 
 %\bibliographystyle{Frontiers-Vancouver} % Many Frontiers journals use the numbered referencing system, to find the style and resources for the journal you are submitting to: https://zendesk.frontiersin.org/hc/en-us/articles/360017860337-Frontiers-Reference-Styles-by-Journal
 %\bibliography{test} % Add as needed if the correction includes referenced data
 
 %%% Upload the *bib file along with the *tex file and PDF on submission if the bibliography is not in the main *tex file
 
 
-%%% If this corrigendum relates to a figure or figures please upload it/them when submitting the article
-%%% Frontiers will add the figures at the end of the provisional pdf automatically
-%%% The use of LaTeX coding to draw Diagrams/Figures/Structures should be avoided. They should be external callouts including graphics.
+% If this corrigendum relates to a figure or figures please upload it/them when submitting the article. Frontiers will add the figures at the end of the provisional pdf automatically
+% The use of LaTeX coding to draw Diagrams/Figures/Structures should be avoided. They should be external callouts including graphics.
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% More examples of how to write corrigenda can be found on the following pages:
-%
-% http://journal.frontiersin.org/article/10.3389/fcell.2016.00074/full
-% http://journal.frontiersin.org/article/10.3389/fpls.2016.01041/full
-% http://journal.frontiersin.org/article/10.3389/fpls.2016.00281/full
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End of template, if you would like to request a correction for a reason not seen here, please contact the journal’s Editorial Office
 
 \end{document}
