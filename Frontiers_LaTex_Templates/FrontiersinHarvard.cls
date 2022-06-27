@@ -518,7 +518,7 @@
   \begingroup
   \let\section\absection
   \fontfamily{\sfdefault}\fontsize{12}{12}\sffamily\selectfont
-  {\fontseries{b}\selectfont ABSTRACT}\par}
+  {\fontseries{b}\selectfont Abstract}\par}
 {\endgroup\smallskip\@afterheading\@afterindentfalse\vskip 12pt plus -2pt minus 2pt}
 
 % Section macros
