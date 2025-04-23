@@ -862,7 +862,7 @@
 {\end{list}\endgroup}
 
 \usepackage[numbers,round]{natbib}
-\renewcommand\@biblabel[1]{\textbf #1 .}
+\renewcommand\@biblabel[1]{\textbf #1.}
 
 % **********
 % Appendix *
